@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.quote1{
+	font-size: 35px;
+	color: white;
+	font-family: 'Instrument Serif';
+}
+
+.quote2{
+	font-size: 35px;
+	color: black;
+	font-family: 'Instrument Serif';
+}
+
+.person1{
+	font-size: 35px;
+	color: white;
+	font-family:'Instrument Serif';
+	text-align: right;
+}
+
+.person2{
+	font-size: 35px;
+	color: black;
+	font-family: 'Instrument Serif';
+	text-align: left;
+}
+
+.blackhalf{
+	text-align:center;
+	background-color: black; 
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 94px;
+	background-image: url(https://i.pinimg.com/originals/0a/eb/ea/0aebea79e5463d591f461b69b683dee9.png);
+	height: 530px;
+	width: 50%;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.whitehalf{
+	text-align: center;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 93px;
+	background-image:url(https://i.pinimg.com/originals/29/ea/e7/29eae716c323301b5cfb9b2fa3448c1e.png);
+	
+	height: 530px;
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 5px;
+}
